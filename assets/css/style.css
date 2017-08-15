@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777;
-    background: url("../images/concrete_seamless.png");
+    background: url("../images/backgroundBoot.png");
 }
 
 * {
@@ -67,7 +67,7 @@ h3 {
 
 #logo {
     float: left;
-    width: 250px;
+/*    width: 250px;*/
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
@@ -77,12 +77,13 @@ h3 {
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
+
 }
 
-nav {
+/*nav {
     float: right;
     margin-top: 25px;
-}
+}*/
 
 nav a {
     display: inline-block;
@@ -98,7 +99,10 @@ nav a:first-child {
     border-left: 0 none;
 }
 
-
+/*#navbarNav {
+    float: right;
+}
+*/
 /* footer */
 
 footer {
@@ -116,11 +120,11 @@ footer {
 /* sidebar */
 
 .sidebar {
-    float: right;
+/*    float: right;*/
     width: 100%;
-    max-width: 270px;
+/*    max-width: 270px;*/
     padding: 30px;
-    margin-bottom: 20px;
+/*    margin-bottom: 20px;*/
     background: #fff;
     border: 1px solid #ddd;
 }
@@ -154,7 +158,7 @@ h3,
 .main-section {
     float: left;
     width: 100%;
-    max-width: 650px;
+/*    max-width: 650px;*/
     padding: 30px;
     margin: 0 0 40px;
     background: #fff;
@@ -244,6 +248,4 @@ input[type=submit] {
     background: #4aaaa5;
     border: 0 none;
 }
-
-
 
